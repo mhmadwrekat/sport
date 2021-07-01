@@ -1,0 +1,38 @@
+
+#idred {
+  color : red
+}
+#orangep {
+  color : orange
+}
+#darkenp {
+  color : DarkCyan
+}
+#greenp {
+  color : green
+}
+.class{
+  color : yellow
+}
+#name {
+  color :blue
+}
+li {
+  display: block ;
+}
+
+a {
+  text-decoration: none
+}
+
+ul {
+  float : right
+}
+
+h1 {
+  float : left
+}
+h1 {
+  color : blueviolet
+}
+body {background:black}
