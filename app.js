@@ -3,7 +3,6 @@
 alert("Welcome to my page " + name)
 */
 
-<<<<<<< HEAD
 var favSport = prompt("Choose Number => 1. football ? 2. body building ? 3. basketball ? 4. Walking ?")
 
 if (favSport == "1")
@@ -15,7 +14,6 @@ else if (favSport == "2")
   alert("Read paragraph in [ DARKEN COLOR ] :)")
 }
 else if (favSport == "3")
-=======
 var favSport = prompt("please Type Number Of Your Favorite sport ? 1. football ? 2. basketball ? 3. body building ?")
 
 if (favSport == "1")
@@ -25,7 +23,6 @@ if (favSport == "1")
 {
   alert("You Can Find About body building In Second Paragraph :)")
 }else if (favSport == "3")
->>>>>>> b732b5a7321d956ff8dcb11f72d9cf537de93999
 {
   alert("Read paragraph in [ ORANGE COLOR ] :)")
 }
@@ -49,7 +46,6 @@ if (favSport == "1")
   document.write("<p>"+"  ( The Basketball ) It is A fun Sportes And For Talled People"+"</p>")
 }else {
   document.write("<p>"+"  I Think The Football Is A Very Peautiful Sports TRY IT :) "+"</p>")
-<<<<<<< HEAD
 }
 
 
@@ -81,6 +77,4 @@ var counter = 1
 
 
 
-=======
-}
->>>>>>> b732b5a7321d956ff8dcb11f72d9cf537de93999
+
