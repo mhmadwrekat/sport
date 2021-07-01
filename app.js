@@ -2,6 +2,7 @@
 alert("Welcome to my page " + name)
 */
 
+
 var favSport = prompt("Choose Number => 1. football ? 2. body building ? 3. basketball ? 4. Walking ?")
 
 if (favSport == "1")
@@ -21,7 +22,7 @@ else if (favSport == "4")
   alert("Read paragraph in [ Green COLOR ] :)")
 }
 else {
-  alert("  Sorry , You Can Read About Other Sports Here :) ")
+  alert("  Sorry , But You Can Read About Other Sports Here :) ")
 }
 
 
@@ -39,30 +40,38 @@ if (favSport == "1")
 }
 
 
-var random = Math.floor(Math.random() * 10 ) + 1 ;
+var random = Math.floor(Math.random() * 10) + 1;
 console.log(random)
-var input = prompt ("Train Your Mind => Guess Number In My mind Between 0 and 10 ?")
+var input = prompt("Train Your Mind => Guess Number In My mind Between 0 and 10 ?")
 var counter = 1
+if (input != null) {
+  while (input !== random) {
+    if (input < random) {
+      input = prompt("Bigger ): try another number")
+      if (input == null) {
+        alert("Thats Ok Maybe Later  :)")
+        break;
+      }
+    }
 
- while (input !== random)
- {
-    if (input < random)
-   {alert("Bigger")
-       input = prompt (" ): try another number")}
-
-   else if (input > random)
-    {alert("smaller")
-        input = prompt ("): Try another number")}
-        else if (input == random){
-          alert("thats Right " + random + " | Number Of Your Trying : " + counter + " Times :)")
-          break ;
-        }
-        else {
-          break
-        }
+    else if (input > random) {
+      input = prompt("Smaller ): Try another number")
+      if (input == null) {
+        alert("Thats Ok Maybe Later  :)")
+        break;
+      }
+    }
+    else if (input == random) {
+      alert("thats Right " + random + " | Number Of Your Trying : " + counter + " Times :)")
+      break;
+    }
+    else {
+      break
+    }
 
     counter += 1
- }
+  }
+} else { alert("Thats Ok Maybe Later  :)") }
 
 
 
