@@ -58,7 +58,10 @@ if (input != null) {
   }
 } else { alert("Thats Ok Maybe Later  :)") }
 
+<<<<<<< HEAD
 return counter ;
 }
 
+=======
+>>>>>>> 3a93befc23ba7be1e81b4e6325329a468cf7fbfc
 
