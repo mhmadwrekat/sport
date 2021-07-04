@@ -1,4 +1,6 @@
+/*              */
 
+/*              */
 #aamg {
   display: block;
   margin-left: auto;
@@ -6,11 +8,12 @@
 
 #idred {
     text-align: center;
-  color : red }
+color : rgb(211, 33, 83);
+ }
 
 #orangep {
     text-align: center;
-  color : orange }
+  color : rgb(231, 160, 26) ; }
 
 #darkenp {
     text-align: center;
@@ -18,35 +21,47 @@
 
 #greenp {
   text-align: center;
-  color : green }
+  color : rgb(15, 158, 15) }
 
-.class {
-  color : yellow }
+#js {
+  
+    text-align: center;
+    padding: 20px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto;}
 
-#name {
+footer {   
     font-weight: bold;
     text-align: center;
-  color :blue }
-
-
-li {
-  display: block ;
-}
+    color :rgb(255, 255, 255) ;
+    background: rgba(138, 5, 127, 0.788) ;
+    padding: 20px;
+      display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 a {
-  text-decoration: none
-}
-
-ul {
+    text-decoration: none ;
+   border-style: outset ;
+      padding: 7px ;
     font-weight: bold;
-  float : right }
+  color :rgb(186, 189, 26) ; }
+
+  header {
+    background: rgba(138, 5, 127, 0.788) ;
+  }
 
 h1 {
-text-align: center;
-  color : blueviolet; }
+  margin: 30px;
+  text-align: center;
+  
+color :rgb(219, 219, 200) ; }
 
-   p {
-     text-align: center; }
+  div {
+border-style: double ;
+  padding: 10px ;
+ }
 
 
 body {background: black;}
